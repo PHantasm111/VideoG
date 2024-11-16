@@ -6,15 +6,47 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.3.2",
+    "@google-cloud/text-to-speech": "^5.6.0",
+    "@google/generative-ai": "^0.21.0",
+    "@neondatabase/serverless": "^0.10.3",
+    "@radix-ui/react-alert-dialog": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-select": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@remotion/cli": "4.0.229",
+    "assemblyai": "^4.8.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.1",
+    "firebase": "^11.0.1",
+    "google-cloud-text-to-speech": "^0.3.2",
+    "lucide-react": "^0.456.0",
+    "next": "^15.0.3",
+    "pg": "^8.13.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "remotion": "4.0.229",
+    "replicate": "^1.0.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "@types/react": "18.3.12",
+    "drizzle-kit": "^0.28.0",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3"
   }
 }
